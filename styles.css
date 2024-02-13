@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+ :root{
+    --main-color:#deab5f;
+    --primary-color: #312e2e;
+ }
+/* Resets */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+      /* Nice color for dark background */
+}
+       /* Utility */
+button{
+ background: var(--main-color);
+ padding: 10px 30px;
+ border: none;
+ cursor: pointer;
+}
+
+ body{
+   /* background-color: #4070f4; */
+   background-color: #100e0f;
+ }
+  /* Navbar */
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px;
+ }
+li{
+    display: inline;
+    list-style: none;
+ }
+ li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+ }
+ li a:hover {
+    border-bottom: 2px solid var(--main-color);
+ }
+  /* Header */
+  .header{
+   background:url(./images/coffee\ image.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   font-weight: normal;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   color: #fff;
+   position: relative;
+   align-items: center;
+   background-color: none;
+  }
+  .main-heading{
+   position:absolute;
+   top: 6rem;
+   font-size:4rem; 
+  }
+  .primary-heading{
+   position: absolute;
+   top: 12rem;
+   font-size: 3rem;
+   word-spacing: 10px;
+
+   /* margin-bottom: -40px; */
+  }
+  .main-btn{
+   position: absolute;
+   top: 18rem;
+   transform: translateY(60px);
+ }
+
+  #our-story{
+   height: 100vh;
+  }
+  
